@@ -6,7 +6,7 @@
     --dark-grayish-blue: hsl(228, 12%, 48%);
 
     --border-radius-round: .75rem;
-    --margin-vertical: 1.3rem;
+    --margin-vertical: 1.45rem;
 }
 
 body {
@@ -20,13 +20,6 @@ body {
     align-items: center;
 }
 
-.main-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1 0 0;
-}
-
 /* Buttons */
 
 button {
@@ -37,6 +30,8 @@ button {
     border-radius: 0.5rem;
     border: none;
     cursor: pointer;
+    font-size: .85rem;
+    font-weight: 600;
     padding: 1rem;
     text-align: center;
     width: 100%;
@@ -67,6 +62,15 @@ button {
     margin-right: 0.5rem;
     vertical-align: text-top;
     width: 1rem;
+}
+
+/* Main Container Section */
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 0;
 }
 
 /* Product preview card Section */
@@ -118,7 +122,7 @@ button {
 
 .product-description {
     font-size: 0.9rem;
-    line-height: 1.5;
+    line-height: 1.6;
     margin: var(--margin-vertical) 0;
 }
 
@@ -150,12 +154,11 @@ button {
     align-items: baseline;
     display: flex;
     font-size: 0.6875rem;
-    font-weight: 600;
 }
 
 .attribution a {
     text-decoration: none;
-    width: 12.5rem;
+    width: 14rem;
 }
 
 @media (max-width: 40.625rem) {
