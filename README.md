@@ -13,7 +13,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 <strong>In progress...</strong>
 
 <!-- ## Inside
-
-
-
 # Another Chapter -->
+
+<!-- ## What I learned -->
+<!-- 1. CSS Properties -->
