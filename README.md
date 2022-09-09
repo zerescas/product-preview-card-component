@@ -87,7 +87,7 @@ This way I can make round corners on a card and on some angles of image and most
 }
 ```
 
-### Continued development
+### Special question
 
 What is the better way to define CSS classes?
 
