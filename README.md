@@ -143,6 +143,10 @@ What is the better way to define CSS classes?
 ```css
 .card-container {
   /* ... */
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  /* ... */
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -155,6 +159,8 @@ What is the better way to define CSS classes?
 }
 
 .product-info-container {
+  /* ... */
+  padding: 0.5rem;
   /* ... */
   flex: 1 0 0;
   display: flex;
