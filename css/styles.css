@@ -17,6 +17,7 @@ body {
 
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 }
 
 .main-container {
@@ -38,9 +39,20 @@ button {
     cursor: pointer;
     padding: 1rem;
     width: 100%;
+    text-align: center;
+}
+
+.btn-outline-primary {
+    border: solid 1px var(--dark-cyan);
+    color: var(--dark-cyan);
 }
 
 .btn-primary {
+    background-color: var(--dark-cyan);
+    color: white;
+}
+
+.btn-outline-primary:hover {
     background-color: var(--dark-cyan);
     color: white;
 }
@@ -138,20 +150,19 @@ button {
 /* Footer Section */
 
 .footer {
-    background-color: var(--dark-cyan);
     padding: 2rem;
 }
 
 .attribution {
+    display: flex;
     font-size: 11px;
-    text-align: center;
-    color: var(--cream);
+    font-weight: 600;
+    align-items: baseline;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
-    color: unset;
     text-decoration: none;
+    width: 200px;
 }
 
 @media (max-width: 650px) {
@@ -170,5 +181,10 @@ button {
 
     .product-info-container {
         padding: 1.5rem;
+    }
+
+    .attribution {
+        flex-flow: column nowrap;
+        align-items: center;
     }
 }
