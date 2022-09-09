@@ -80,7 +80,7 @@ button {
     background-color: white;
     border-radius: var(--border-radius-round);
     height: auto;
-    width: 600px;
+    width: 37.5rem;
 
     display: flex;
 }
@@ -155,14 +155,14 @@ button {
 
 .attribution {
     display: flex;
-    font-size: 11px;
+    font-size: 0.6875rem;
     font-weight: 600;
     align-items: baseline;
 }
 
 .attribution a {
     text-decoration: none;
-    width: 200px;
+    width: 12.5rem;
 }
 
 @media (max-width: 650px) {
