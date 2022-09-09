@@ -38,8 +38,8 @@ button {
     border: none;
     cursor: pointer;
     padding: 1rem;
-    width: 100%;
     text-align: center;
+    width: 100%;
 }
 
 .btn-outline-primary {
@@ -69,25 +69,19 @@ button {
     width: 1rem;
 }
 
-.btn span {
-    font-size: .85rem;
-    font-weight: 600;
-}
-
 /* Product preview card Section */
 
 .product-preview-card-container {
     background-color: white;
     border-radius: var(--border-radius-round);
+    display: flex;
     height: auto;
     width: 37.5rem;
-
-    display: flex;
 }
 
 .product-preview-card-container img {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 .product-img-desktop {
@@ -107,10 +101,10 @@ button {
 }
 
 .product-category {
-    margin-top: 0;
     font-size: .75rem;
     font-weight: 500;
     letter-spacing: 0.37rem;
+    margin-top: 0;
     margin: 0 0 var(--margin-vertical);
 }
 
@@ -129,10 +123,9 @@ button {
 }
 
 .price-container {
-    margin: var(--margin-vertical) 0;
-
-    display: flex;
     align-items: center;
+    display: flex;
+    margin: var(--margin-vertical) 0;
 }
 
 .price-on-sale {
@@ -154,10 +147,10 @@ button {
 }
 
 .attribution {
+    align-items: baseline;
     display: flex;
     font-size: 0.6875rem;
     font-weight: 600;
-    align-items: baseline;
 }
 
 .attribution a {
@@ -165,10 +158,10 @@ button {
     width: 12.5rem;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 40.625rem) {
     .product-preview-card-container {
         flex-flow: column nowrap;
-        width: 350px;
+        width: 21.875rem;
     }
 
     .product-img-desktop {
