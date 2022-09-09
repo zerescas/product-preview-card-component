@@ -88,13 +88,8 @@ button {
     width: 100%;
 }
 
-.product-img-desktop {
+.product-img {
     border-radius: var(--border-radius-round) 0 0 var(--border-radius-round);
-}
-
-.product-img-mobile {
-    border-radius: var(--border-radius-round) var(--border-radius-round) 0 0;
-    display: none;
 }
 
 /* Product Info Section */
@@ -167,16 +162,12 @@ button {
         width: 21.875rem;
     }
 
-    .product-img-desktop {
-        display: none;
-    }
-
-    .product-img-mobile {
-        display: initial;
-    }
-
     .product-info-container {
         padding: 1.5rem;
+    }
+
+    .product-img {
+        border-radius: var(--border-radius-round) var(--border-radius-round) 0 0;
     }
 
     .attribution {

@@ -32,8 +32,13 @@
 
       <div class="flex-1">
 
-        <img class="product-img-desktop" src="images/image-product-desktop.jpg" alt="product-desktop-img">
-        <img class="product-img-mobile" src="images/image-product-mobile.jpg" alt="product-mobile-img">
+        <picture>
+
+          <source srcset="images/image-product-desktop.jpg" media="(min-width: 40.65rem)">
+          <source srcset="images/image-product-mobile.jpg">
+          <img class="product-img" src="images/image-product-mobile.jpg" alt="product-img">
+
+        </picture>
 
       </div>
 
