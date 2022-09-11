@@ -41,8 +41,6 @@ Users should be able to:
 
 ## My process
 
-**in progress**
-
 ### Built with
 
 - Semantic HTML5 markup
